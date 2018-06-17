@@ -1,0 +1,42 @@
+Instalando django
+
+1. :~$ apt install python3-pip
+
+2. :~$ pip3 install -U pip
+
+3. :~$ pip3 install virtualenv
+
+4. :~$virtualenv ENV
+
+5. :~$source djangoprojects/bin/activate	-- ???
+
+6. Sabremos que el entorno virtual esta activado cuando veamos que antes del nombre de nuestra terminal aparece el nombre de nuestro ambiente virtual entre paréntesis, ejem: (djangoprojects) usuario@maquina:~$
+
+7. :~$ deactivate
+
+8. :~$ pip3 install Django	-- instalando en el entorno virtual
+
+9. :~$python3			-- para verificar
+>>> import django
+>>> print(django.get_version())
+
+--https://opensai.org/bitacora/instalando-django-2-0-en-ubuntu-linux-16-04-lts --
+
+
+*********************************************************************
+https://tutorial.djangogirls.org/es/django_start_project/
+
+Activar ambiente virtual
+source myvenv/bin/activate
+ok
+
+~/djangoFh/mysite$ python manage.py createsuperuser	 -- crear superusuario
+ingresar usuario: faiverht, correo ...
+Isabella....
+
+nombre de usuario de git "faiverht" en djangoFh
+
+
+
+*********************************************************************
+
